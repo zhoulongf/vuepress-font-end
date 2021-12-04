@@ -4,7 +4,7 @@
  # @FilePath: /vuepress-font-end/deploy.sh
  # @Date: 2021-12-04 17:15:34
  # @LastEditors: zhoulf
- # @LastEditTime: 2021-12-04 17:15:55
+ # @LastEditTime: 2021-12-04 17:25:01
  # @Description: 
 ### 
 
@@ -26,7 +26,7 @@ git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io  USERNAME=你的用户名 
 # https://zhoulongf.github.io/vuepress-font-end
-git push -f git@github.com:<zhoulongf>/<vuepress-font-end>.github.io.git master
+git push -f git@github.com:<zhoulongf>/<zhoulongf>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>  REPO=github上的项目
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages

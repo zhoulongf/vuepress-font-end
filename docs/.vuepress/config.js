@@ -10,6 +10,7 @@ const head = require('./config/head.js')
 const themeConfig = require('./config/themeConfig.js')
 module.exports = {
   // theme: 'vdoing', // 使用npm包主题
+  // base:"https://zhoulongf.github.io/vuepress-font-end/",
   title: "菲 VuePress",
   description: "Just playing around",
   markdown: {

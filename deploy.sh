@@ -4,7 +4,7 @@
  # @FilePath: /vuepress-font-end/deploy.sh
  # @Date: 2021-12-04 17:15:34
  # @LastEditors: zhoulf
- # @LastEditTime: 2021-12-04 17:27:54
+ # @LastEditTime: 2022-02-24 15:36:14
  # @Description: 
 ### 
 
@@ -22,11 +22,13 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m 'depoly脚本更新'
 
+git config user.name zhoulongf
+git config user.email 1525283969@qq.com
 # 如果发布到 https://<USERNAME>.github.io  USERNAME=你的用户名 
 # https://zhoulongf.github.io/vuepress-font-end
-git push -f https://github.com/zhoulongf/vuepress-font-end.git master
+git push -f https://github.com/zhoulongf/vuepress-font-end.git master:gh-pages
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>  REPO=github上的项目
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages

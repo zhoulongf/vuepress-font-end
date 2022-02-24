@@ -3,12 +3,12 @@
  * @FilePath: /vuepress-font-end/docs/.vuepress/config/head.js
  * @Date: 2021-12-04 10:46:08
  * @LastEditors: zhoulf
- * @LastEditTime: 2021-12-04 11:06:38
+ * @LastEditTime: 2022-02-24 10:57:04
  * @Description: 
  */
 module.exports = [
     // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
-    ['link', { rel: 'icon', href: '/favicon.ico' }], //favicons，资源放在public文件夹
+    ['link', { rel: 'icon', href: '/three-ball.jpeg' }], //favicons，资源放在public文件夹
     [
       'meta',
       {

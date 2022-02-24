@@ -1,0 +1,16 @@
+{
+  "name": "vuepress-font-end",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs --no-cache",
+    "build": "vuepress build docs",
+    "d": "bash deploy.sh"
+  },
+  "keywords": [
+    "vue",
+    "vue源码分析",
+    "菲戈-技术文档"
+  ]
+}

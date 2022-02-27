@@ -3,7 +3,7 @@
  * @FilePath: /vuepress-font-end/docs/.vuepress/config/sidebar.js
  * @Date: 2021-12-04 10:50:14
  * @LastEditors: zhoulf
- * @LastEditTime: 2022-02-24 15:14:54
+ * @LastEditTime: 2022-02-27 15:09:26
  * @Description:
  */
 module.exports = {
@@ -196,6 +196,25 @@ module.exports = {
         '/webpack/webpack/optimization.md',
         '/webpack/webpack/loader.md',
         '/webpack/webpack/plugin.md'
+      ]
+    }
+  ],
+  '/library/':[
+    {
+      title: '脚手架工具',
+      collapsable: false,
+      children:[
+        '/library/vue-library/',
+        '/library/vant-library/'
+      ]
+    }
+  ],
+  '/design/':[
+    {
+      title: '前端设计模式',
+      collapsable: true,
+      children:[
+        ['','设计模式']
       ]
     }
   ]

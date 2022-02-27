@@ -3,7 +3,7 @@
  * @FilePath: /vuepress-font-end/docs/.vuepress/config/nav.js
  * @Date: 2021-12-04 10:39:06
  * @LastEditors: zhoulf
- * @LastEditTime: 2022-02-24 15:24:43
+ * @LastEditTime: 2022-02-27 15:01:12
  * @Description:
  */
 module.exports = [
@@ -57,4 +57,23 @@ module.exports = [
       }
     ]
   },
+  {
+    text: '组件库工具',
+    items: [
+      {
+        text: 'pc端脚手架',
+        link: '/library/vue-library/'
+      },
+      {
+        text: '移动端脚手架',
+        link: '/library/vant-library/'
+      }
+    ]
+  },
+  {
+    text: '前端工程化',link:'/engineer/'
+  },
+  {
+    text: '前端设计模式',link: '/design/'
+  }
 ];
